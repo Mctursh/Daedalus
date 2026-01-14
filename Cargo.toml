@@ -1,0 +1,13 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+resolver = "2"
+members = ["cu_counter"]
+
+[workspace.dependencies]
+pinocchio = "0.10.1"
+solana-program-log = "1.1.0"
+solana-program-test = "1.18"
+solana-sdk = "1.18"
