@@ -28,7 +28,7 @@ mod instruction {
 
     use super::*;
 
-    pub fn log_checker(program_id: &Address, accounts: &[AccountView], instruction_data: &[u8]) -> ProgramResult {
+    pub fn log_checker(_program_id: &Address, _accounts: &[AccountView], _instruction_data: &[u8]) -> ProgramResult {
         log_compute_units();
         
         for i in 0..10 {
