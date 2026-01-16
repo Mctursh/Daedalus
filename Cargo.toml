@@ -1,10 +1,10 @@
 [workspace.package]
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [workspace]
 resolver = "2"
-members = ["cu_counter"]
+members = ["cu_counter", "zero_copy_read"]
 
 [workspace.dependencies]
 pinocchio = "0.10.1"

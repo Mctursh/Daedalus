@@ -6367,6 +6367,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "zero_copy_read"
+version = "0.1.0"
+dependencies = [
+ "pinocchio",
+ "solana-program-log",
+]
+
+[[package]]
 name = "zerocopy"
 version = "0.8.33"
 source = "registry+https://github.com/rust-lang/crates.io-index"
