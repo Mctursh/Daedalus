@@ -4,10 +4,11 @@ edition = "2021"
 
 [workspace]
 resolver = "2"
-members = ["cu_counter", "zero_copy_read"]
+members = ["batch_or_bust","cu_counter", "zero_copy_read"]
 
 [workspace.dependencies]
 pinocchio = "0.10.1"
 solana-program-log = "1.1.0"
 solana-program-test = "1.18"
 solana-sdk = "1.18"
+pinocchio-system = "0.5.0"
